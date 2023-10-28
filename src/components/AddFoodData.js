@@ -63,7 +63,8 @@ const AddFoodData = () => {
                                 restaurantAddressBuilding,
                                 restaurantAddressStreet,
                                 restaurantAddressCity,
-                                restaurantAddressPincode
+                                restaurantAddressPincode,
+                                id: new Date().getTime().toString()
                             }
                             console.log(foodData)
                             try {
